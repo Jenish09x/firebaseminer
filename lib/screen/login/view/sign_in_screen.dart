@@ -66,8 +66,14 @@ class _SignInScreenState extends State<SignInScreen> {
                       Get.offAllNamed('profile');
                     }
                   },child: Image.asset("assets/image/google.png",height: 30,)),
-                  InkWell(onTap: () {
-
+                  InkWell(onTap: () async {
+                    String msg=await FireAuthHelper.fireAuthHelper.guestLogin();
+                    Get.snackbar(msg, "Login success fully");
+                    if(msg=="success")
+                    {
+                      FireAuthHelper.fireAuthHelper.checkUser();
+                      Get.offAllNamed('profile');
+                    }
                   },child: Image.asset("assets/image/guest.png",height: 30,)),
                 ],
               ),

@@ -58,4 +58,14 @@ class FireAuthHelper {
       return e.toString();
     }
   }
+
+  Future<String> guestLogin() async {
+    var userCredential = await auth.signInAnonymously();
+    try {
+      await auth.signInAnonymously();
+      return "success";
+    } on FirebaseAuthException catch (e) {
+      return e.toString();
+    }
+  }
 }
