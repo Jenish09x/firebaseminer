@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "202184575633",
+    "project_id": "fir-miner-b25ec",
+    "storage_bucket": "fir-miner-b25ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202184575633:android:02bfbf3238f94ba4aa4d30",
+        "android_client_info": {
+          "package_name": "com.example.firebaseminer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202184575633-e2ff789tu6lljl3bhon89ftv6f7bto3u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseminer",
+            "certificate_hash": "72e10cc6951af09aa043cbc18f6d8b30ce36060a"
+          }
+        },
+        {
+          "client_id": "202184575633-b3m8m8r7t4vjv7lmm81bni5e50cs3pnq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhPcWI9d18RAHXDa9ids7sr8pIf1CbuhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202184575633-b3m8m8r7t4vjv7lmm81bni5e50cs3pnq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "202184575633-e7kfl9vvpiildv0abob5ullqdeufc0hi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebaseminer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
